@@ -45,7 +45,7 @@ function AdminLayout() {
 					/> : null
 				} */}
 				<img src='/vite.svg' />
-				<h2>LRT表单设计</h2>
+				<h2>表单编辑器</h2>
 				{/* 是否显示新增表单按钮 */}
 				{location.pathname === '/forms' ?
 					<Button className={styles.add_btn} type='primary' icon={<PlusOutlined />} onClick={() => navigate('/create')}>新建表单</Button> : null
@@ -79,7 +79,6 @@ function AdminLayout() {
 				color: '#666'
 			}}
 			>
-				Copyright © 2023 LRT表单设计
 			</Footer>
 		</Content>
 	</Layout>

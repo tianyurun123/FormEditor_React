@@ -9,13 +9,13 @@ export default function LoginLayout(props: {children: JSX.Element}) {
 		<div className={styles.content}>
 			{/* 页面显示切换区域 */}
 			<div className={`${styles.inner} login`}>
-				<h2 style={{textAlign: 'center', marginBottom: 32 }}>LRT表单设计</h2>
+				<h2 style={{textAlign: 'center', marginBottom: 32 }}>表单编辑器</h2>
 				{props.children}
 			</div>
 		</div>
 		{/* 底部联系信息 */}
 		<div className={styles.contact}>
-			<p>Copyright © 2023 表单设计</p>
+			<p>表单编辑器</p>
 			<p>
 				<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" rel="noreferrer">京ICP备2023000500号-1</a>
 			</p>
